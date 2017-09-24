@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Library>
+<Book BookId="www">
+	<Title>xml</Title>
+	<Author>xianghua</Author>
+	<Price>30</Price>
+	<Publisher>yangtze</Publisher>
+</Book>
+<Member>
+	<Name>
+		<FirstName>7</FirstName>
+		<MiddleName>1</MiddleName>
+		<LastName>1</LastName>
+	</Name>
+	<Address>
+		<HouseNumber>9#419</HouseNumber>
+		<Street>shenkaistreet</Street>
+		<City>jingzhou</City>
+	</Address>
+</Member>
+</Library>
