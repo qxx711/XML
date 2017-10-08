@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="学生名册" type="stduentsType"/>
+	<xs:complexType name="stduentsType">
+		<xs:sequence minOccurs="1" maxOccurs="unbounded">
+			<xs:element name="学生">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="姓名" type="xs:string"/>
+						<xs:element name="性别" type="xs:string"/>
+						<xs:element name="年龄" type="xs:int"/>
+					</xs:sequence>
+					<xs:attribute name="no" type="xs:ID" use="required"></xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
